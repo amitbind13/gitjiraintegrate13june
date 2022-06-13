@@ -11,7 +11,7 @@ on:
         description: 'The jira id associated with repositoy creation'
         required:   true   
 env:
-  OWNER: amitbind13
+  OWNER: amit-bind-mn
 ​
 jobs:
   trigger_action:
