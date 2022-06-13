@@ -12,7 +12,6 @@ on:
         required:   true   
 env:
   OWNER: amit-bind-mn
-​
 jobs:
   trigger_action:
     runs-on: ubuntu-latest
