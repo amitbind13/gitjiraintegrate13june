@@ -1,3 +1,3 @@
 # gitjiraintegrate13june
 git jira issue
-2nd ru
+2nd run
