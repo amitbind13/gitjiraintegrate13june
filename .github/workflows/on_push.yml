@@ -19,7 +19,7 @@ jobs:
       id: create
       uses: atlassian/gajira-create@master
       with:
-        project: gitjiraintegrate13june
+        project: GIT
         issuetype: Task
         summary: |
           Build completed for ${{ github.repository }}
