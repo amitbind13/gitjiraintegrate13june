@@ -14,7 +14,7 @@ jobs:
       env:
         JIRA_BASE_URL: https://amit-bind-mn.atlassian.net
         JIRA_USER_EMAIL: amitkumarbind130207@gmail.com 
-        JIRA_API_TOKEN_AMIT: MhUtEIPsjKgrIZFZSR733A89
+        JIRA_API_TOKEN_AMIT: ${{ secrets..JIRA_API_TOKEN_AMIT }}
         
         
     - name: Transition issue
