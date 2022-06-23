@@ -21,12 +21,6 @@ jobs:
       uses: atlassian/gajira-transition@master
       with:
         issue: ${{ github.head_ref }}
-        transition: "In progress"
+        transition: "PEER REVIEW"
         
-    - name: Transition issue not roll back
-      uses: atlassian/gajira-transition@master
-      with:
-       if: github.event_name == 'pull_request' || github.event.action == 'opened
-       issue: ${{ github.head_ref }}
-       more-transition: "To Do"
-       required: false
+
