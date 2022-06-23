@@ -21,6 +21,6 @@ jobs:
       uses: atlassian/gajira-transition@master
       with:
         issue: ${{ github.head_ref }}
-        transition: "In progress"
+        transition: "PEER REVIEW"
         
 
